@@ -1,0 +1,79 @@
+/* collectfees.css */
+
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.fees-container { /* Changed class name here */
+    padding: 10px;
+    margin: 0 auto; /* Center the container */
+    max-width: 800px; /* Limit container width */
+}
+
+.criteriaa-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(95, 88, 88);
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-wrap: wrap; /* Allow form elements to wrap */
+}
+
+.Name {
+    flex: 1; /* Each section takes equal space */
+    margin: 10px;
+}
+
+.Name h5 {
+    font-size: 18px;
+    margin-bottom: 5px; /* Add spacing below the heading */
+}
+
+.Name select {
+    width: calc(40% - 20px); /* Full width select */
+    padding: 10px; /* Add padding to select */
+    font-size: 16px;
+    margin-bottom: -5px; /* Adjust spacing below the select */
+}
+
+.Name button {
+    width: 8rem;
+    height: 40px;
+    background-color: rgb(93, 93, 87);
+    margin-top: 1rem;
+    margin-left: 1140px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Name button:hover {
+    background-color: rgb(128, 128, 122);
+}
+
+.Name button:focus {
+    outline: none;
+}
+
+.Name button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}

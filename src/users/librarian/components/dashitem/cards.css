@@ -1,0 +1,11 @@
+ 
+.Main {
+  padding: 20px;
+}
+ 
+.Card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+}

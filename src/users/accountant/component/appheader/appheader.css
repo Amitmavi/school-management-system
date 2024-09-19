@@ -1,0 +1,20 @@
+.logo {
+    animation: spin 5s linear infinite; /* Apply the rotation animation */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+  
+  /* Light mode styles */
+.AppHeader {
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark text color */
+}
+
+/* Dark mode styles */
+.AppHeader.dark-mode {
+  background-color: #333333; /* Dark background */
+  color: #ffffff; /* Light text color */
+}

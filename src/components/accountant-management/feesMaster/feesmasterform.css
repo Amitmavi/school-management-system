@@ -1,0 +1,19 @@
+.label {
+    display: grid;
+    grid-template-columns: repeat(6, auto); /* Adjust as needed */
+    align-items: center;
+    gap: 30px; /* Add spacing between elements */
+  }
+  .container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Make the container take the full height of the viewport */
+  }
+  
+  .vertical-line {
+    border-left: 2px solid black; /* Specify the thickness and color of the vertical line */
+    height: 120%; /* Set the height of the line */
+    margin: 0 20px; /* Adjust margin as needed */
+  }
+  

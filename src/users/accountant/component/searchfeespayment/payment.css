@@ -1,0 +1,62 @@
+.container1{
+    display: grid;
+}
+
+.comtainers{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.crit-headingg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(95, 88, 88);
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sectionns{
+    width: 20rem;
+    padding: 10px;
+
+}
+ 
+
+form {
+    display: flex;
+    width: 82rem;
+    
+}
+
+.sectionnss button {
+    width: 8rem;
+    height: 40px;
+    background-color: rgb(93, 93, 87);
+    margin-top: 2rem;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sectionnss button:hover {
+    background-color: rgb(128, 128, 122);
+}
+
+.sectionnss button:focus {
+    outline: none;
+}
+
+.sectionnss button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}

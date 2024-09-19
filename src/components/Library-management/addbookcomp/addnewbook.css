@@ -1,0 +1,45 @@
+.new-add-book-container {
+    width: 100%;
+    max-width: 500px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 20px; /* Adjust left margin as needed */
+  }
+  
+  .new-add-book-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .new-add-book-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .new-add-book-container label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .new-add-book-container input[type="text"],
+  .new-add-book-container input[type="number"] {
+    width: calc(100% - 110px); /* Adjust as needed */
+  }
+  
+  .new-add-book-container .save-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #6c757d; /* Grey color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .new-add-book-container .save-button:hover {
+    background-color: #495057; /* Darker grey on hover */
+  }

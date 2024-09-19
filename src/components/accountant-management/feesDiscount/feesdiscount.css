@@ -1,0 +1,39 @@
+.label {
+    display: grid;
+    grid-template-columns: repeat(6, auto); /* Adjust as needed */
+    align-items: center;
+    gap: 30px; /* Add spacing between elements */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Make the container take the full height of the viewport */
+  }
+  
+  .vertical-line {
+    border-left: 2px solid black; /* Specify the thickness and color of the vertical line */
+    height: 120%; /* Set the height of the line */
+    margin: 0 20px; /* Adjust margin as needed */
+  }
+  
+  .footer {
+    background-color: #f4f4f4;
+    padding: 2px;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }  
+
+.content-wrapper {
+  border: 2px solid #ccc; 
+  padding: 20px; 
+  border-radius: 10px; 
+  width: 50%; 
+  margin: 0 auto; 
+  box-sizing: border-box; 
+  height: 500px;
+
+}

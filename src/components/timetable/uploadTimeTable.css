@@ -1,0 +1,41 @@
+.timetable-container {
+    margin: 20px;
+  }
+  
+  .timetable {
+    overflow-x: auto;
+  }
+  
+  th, td {
+    border: 1px solid #000; /* Adding borders to each cell */
+    text-align: center;
+    padding: 9px;
+  }
+ 
+  
+  td {
+    min-width: 80px;
+  }
+  
+  td[contentEditable="true"]:focus {
+    outline: 2px solid #000000;
+  }
+  
+  /* Adding borders to first row and first column */
+  tr:first-child th {
+    border-top: 2px solid #000;
+  }
+  
+  tr td:first-child {
+    border-left: 2px solid #000;
+  }
+  
+  /* Adding borders to last row and last column */
+  tr:last-child td {
+    border-bottom: 2px solid #000;
+  }
+  
+  tr td:last-child {
+    border-right: 2px solid #000;
+  }
+  

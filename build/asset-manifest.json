@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PulseZest_school/static/css/main.644d52c7.css",
+    "main.js": "/PulseZest_school/static/js/main.daf36dbc.js",
+    "index.html": "/PulseZest_school/index.html",
+    "main.644d52c7.css.map": "/PulseZest_school/static/css/main.644d52c7.css.map",
+    "main.daf36dbc.js.map": "/PulseZest_school/static/js/main.daf36dbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.644d52c7.css",
+    "static/js/main.daf36dbc.js"
+  ]
+}

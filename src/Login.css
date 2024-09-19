@@ -1,0 +1,108 @@
+.login-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add padding to create space between the border and content */
+}
+
+.login-form {
+  text-align: center;
+  width: 600px;
+  margin-top: 100px;
+  /* Increased max-width for the form */
+  border: 2px solid #0e0e0e; /* Add border to the form */
+  border-radius: 10px;
+  padding: 20px; /* Add padding to the form */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+/* Rest of the CSS remains the same */
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 5px;
+}
+
+.divider {
+  margin-bottom: 20px;
+}
+
+.divider span {
+  color: #aaa;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: calc(80% - 22px); /* Adjusted width for the input fields */
+  /* Subtracting 22px to account for padding and border */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.forgot-password a {
+  color: #f00;
+}
+
+.radio-group {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow wrapping of radio buttons */
+  justify-content: center; /* Center radio buttons horizontally */
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  white-space: nowrap; /* Prevent wrapping of label text */
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px; /* Adjust spacing between radio button and label */
+}
+
+.btn-sign-in {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(69, 31, 181);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-sign-in:hover {
+  background-color: rgb(48, 20, 100);
+}
+
+
+.input-icon {
+  position: relative;
+}
+
+ 
+
+.input-icon .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjusted the left position of the icon */
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjusted the right position of the icon */
+  transform: translateY(-50%);
+  cursor: pointer;
+}

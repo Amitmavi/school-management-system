@@ -1,0 +1,12 @@
+.subject-list {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .subject {
+    padding: 5px;
+  } 
+  
+  .timetable td {
+    padding: 5px 10px; /* Adjust the values as needed */
+  }

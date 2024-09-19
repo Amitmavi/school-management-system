@@ -1,0 +1,64 @@
+/* teacherRegistration.css */
+
+.form-container {
+  width: 100%;
+  margin: auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  flex: 1;
+  margin-right: 10px;
+  align-items: center; 
+  padding-left: 20px;
+}
+
+.label {
+  display: inline-block;
+  width: 150px; /* Adjust width as needed */
+  font-weight: bold;
+}
+
+select {
+  width: 100%; /* Make select boxes full width */
+  padding: 6px;
+  margin: 1px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.stepper-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stepper-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: auto;
+}
+
+.stepper-button-container button {
+  margin-top: 10px;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+.size {
+  height: 20px;
+}
+
+.size-width {
+  width: 30px;
+}

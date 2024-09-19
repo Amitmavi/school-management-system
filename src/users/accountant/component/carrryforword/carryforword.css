@@ -1,0 +1,58 @@
+/* carryforword.css */
+
+.form-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space elements evenly */
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .comtainerr h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(95, 88, 88);
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .section1 {
+    margin: 10px;
+    width: 400px; /* Adjust width as needed */
+    margin-top: 0.5rem;
+  }
+  
+  .section1 select {
+    font-size: 16px;
+  }
+
+  .section1 button {
+    width: 8rem;
+    height: 40px;
+    background-color: rgb(93, 93, 87);
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.section1 button:hover {
+    background-color: rgb(128, 128, 122);
+}
+
+.section1 button:focus {
+    outline: none;
+}
+
+.section1 button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}

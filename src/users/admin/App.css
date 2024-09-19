@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.main-container {
+    display: flex;
+}
+
+main {
+    padding: 10px;
+    flex: 1; /* Occupy remaining space */
+}
+
+.title {
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+}
+
+/* Sidebar */
+.admin-sidebar {
+    background: rgb(124, 133, 208);
+    color: white;
+    height: 100vh;
+    width: 250px; 
+    position: sticky;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+.accountant-sidebar {
+    background: rgb(5, 8, 30);
+    color: white;
+    height: 100vh;
+    width: 250px; 
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.logo {
+    font-size: 18px;
+    line-height: 0;
+}
+
+.bars {
+    width: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    height: 30px;
+    padding: 10px;
+}
+
+.search input {
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgb(238, 238, 238);
+    color: white;
+}
+
+.routes {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link .icon {
+  margin-right: 10px;
+}
+
+.link.active .link_text {
+  border-bottom: 2px solid #fff;
+}
+
+.link .link_text {
+  font-size: 14px;
+  transition: border-bottom 0.3s ease;
+}
+
+
+.menu {
+    display: flex;
+    color: white;
+    padding: 5px 10px;
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    justify-content: space-between;
+}
+
+.menu_item {
+    display: flex;
+    gap: 10px;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_container .link {
+    padding-left: 20px;
+    border-bottom: #fff 0.5px solid;
+}

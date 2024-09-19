@@ -1,0 +1,50 @@
+/* studentAdmissionForm.css */
+.form-container {
+  width: 100%;
+  margin: auto;
+}
+
+.form-row {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  margin-bottom: 20px;
+}
+
+.form-field {
+  flex: 1;
+  margin-right: 10px;
+  padding-left: 0; /* Remove left padding */
+}
+
+.label {
+  display: inline-block;
+  width: 150px; /* Adjust width as needed */
+  font-weight: bold;
+}
+
+ 
+
+.stepper-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stepper-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: auto;
+}
+
+.stepper-button-container button {
+  margin-top: 10px;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+.size {
+  height: 20px;
+}

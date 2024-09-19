@@ -1,0 +1,57 @@
+.timetable-container {
+    margin: 20px;
+  }
+  
+  .timetable {
+    overflow-x: auto;
+  }
+  
+  
+  th, td {
+    border: 1px solid #000; /* Adding borders to each cell */
+    text-align: center;
+    padding: 8px;
+  }
+ 
+  
+  td {
+    min-width: 80px;
+  }
+  
+  td[contentEditable="true"]:focus {
+    outline: 2px solid #000000;
+  }
+  
+  /* Adding borders to first row and first column */
+  tr:first-child th {
+    border-top: 2px solid #000;
+  }
+  
+  tr td:first-child {
+    border-left: 2px solid #000;
+  }
+  
+  /* Adding borders to last row and last column */
+  tr:last-child td {
+    border-bottom: 2px solid #000;
+  }
+  
+  tr td:last-child {
+    border-right: 2px solid #000;
+  }
+
+  .button,
+  .save-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    /* Add more styles as needed */
+  }
+  
+  .button:hover,
+  .save-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }

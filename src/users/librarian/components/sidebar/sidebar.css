@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Main styles */
+.Main {
+    padding: 20px;
+    transition: margin 0.3s ease;
+  }
+  
+  /* DrawerHeader styles */
+  .DrawerHeader {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+  }
+  
+  /* Card styles */
+  .Card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* AdditionalCard styles */
+  .AdditionalCard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: lightseagreen;
+    width: 600px;
+    margin-left: 200px;
+  }
+  

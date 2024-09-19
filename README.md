@@ -1,2 +1,2 @@
-# pulsezest-web
-PulseZest Web Portal
+# School-management-system
+ Web Portal
